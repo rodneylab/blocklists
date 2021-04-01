@@ -1,0 +1,17 @@
+lists:
+- {format: cidr, name: AlienVault, url: 'https://reputation.alienvault.com/reputation.generic'}
+- {format: cidr, name: Binary Defense Ban List, url: 'https://www.binarydefense.com/banlist.txt'}
+- {format: cidr, name: CI Army, url: 'https://cinsscore.com/list/ci-badguys.txt'}
+- {format: cidr, name: dan.me.uk torlist, url: 'https://www.dan.me.uk/torlist/'}
+- {format: cidr, name: Emerging Threats Compromised, url: 'https://rules.emergingthreats.net/blockrules/compromised-ips.txt'}
+- {format: cidr, name: Emerging Threats Firewall Block List, url: 'https://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt'}
+- {description: 'Includes: bambenek_c2 dshield feodo fullbogons spamhaus_drop spamhaus_edrop
+    sslbl zeus_badips ransomware_rw', format: cidr, name: FireHOL Level 1, url: 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset'}
+- {description: 'Includes: blocklist_de dshield_1d greensnow', format: cidr, name: FireHOL
+    Level 2, url: 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset'}
+- {description: 'Includes: bruteforceblocker ciarmy dshield_30d dshield_top_1000 malc0de
+    myip shunlist snort_ipfilter sslbl_aggressive talosintel_ipfilter zeus vxvault',
+  format: cidr, name: FireHOL Level 3, url: 'https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level3.netset'}
+- {format: range, name: Internet Storm Center DShield, url: 'https://feeds.dshield.org/block.txt'}
+- {format: cidr, name: Internet Storm Center Shodan, url: 'https://isc.sans.edu/api/threatlist/shodan/shodan.txt'}
+- {format: cidr, name: pgl.yoyo.org AdServers, url: 'https://pgl.yoyo.org/adservers/iplist.php?ipformat=&showintro=0&mimetype=plaintext'}
